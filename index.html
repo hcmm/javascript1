@@ -1,0 +1,68 @@
+<html>
+<head> Intrducao</head>
+<body>
+	<h1>Bem-vindo</h1>
+
+	<h2>Bem vindo</h2>
+	<header>
+		<div class="container">
+		<h2>Meus pacientes</h2>
+		</div>
+	</header>
+	<main class="container">
+		<section>
+			<h2>Meus pacientes</h2>
+			<table>
+				<tr>
+					<th>Nome</th>
+					<th>Peso(Kg)</th>
+					<th>Altura</th>
+					<th>IMC</th>
+				</tr>
+				<tr class="paciente">
+					<td class="info-nome">Leonardo</td>
+					<td class="info-peso">57</td>
+					<td class="info-altura">1.77</td>
+					<td class="info-imc"></td>
+				</tr>
+				<tr class="paciente">
+					<td class="info-nome">Carlos</td>
+					<td class="info-peso">57</td>
+					<td class="info-altura">1.77</td>
+					<td class="info-imc"></td>
+				</tr>
+				<tr class="paciente">
+					<td class="info-nome">Felipe</td>
+					<td class="info-peso">57</td>
+					<td class="info-alutra">1.77</td>
+					<td class="info-imc"></td>
+				</tr>
+				<tr class="paciente">
+					<td class="info-nome">Rafael</td>
+					<td class="info-peso">57</td>
+					<td class="info-alutra">1.77</td>
+					<td class="info-imc"></td>
+				</tr>
+			</table>
+			<button id="calcula-imcs" class="botao">Calcular Imcs</button>
+		</section>
+
+		<section>
+		<form>
+			<input id="campo-nome" type="text"/>
+			<input id="campo-peso" type="text"/>
+			<input id="campo-altura" type="text"/>
+		</form>
+			<button id="adicionar-paciente" class="botao">Adicionar Paciente</button>	
+		</section>
+	</main>
+
+	<script src="monta-paciente.js"/>
+	<script src="percorre.js"/>
+	<script src="calcula-imc.js"/>
+	<script src="imprime-nome.js"/>
+	<script src="muda-de-cor.js"/>
+	<script src="adiciona.js"/>
+
+</body>
+</html>
